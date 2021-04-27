@@ -1,30 +1,33 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <Header></Header>
-      
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <header class="container to borders">
+    <h1 class="logo"><img src="./assets/logo-roslina.png"></h1>
+    dupa dupa dupa
+  </header>
 </template>
 
 <script>
-  import Header from "./Header";
-
 export default {
-  name: "RoslinaApp",
-  components:{
-    Header
-  },
+  name: "Header",
   data(){
-    return{}
+    return {}
   }
 }
 </script>
 
 <style>
+header{
+  padding: 15px;
+  background: #42b983;
+
+  .logo{
+    max-width: 150px;
+    img{
+      max-width: 100%;     
+    }
+  }
+}
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
