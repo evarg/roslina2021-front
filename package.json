@@ -15,9 +15,11 @@
     "node-sass": "^5.0.0",
     "sass-loader": "^11.0.1",
     "vue": "^2.6.12",
+    "vue-confirm-dialog": "^1.0.2",
     "vue-loader": "^15.9.6",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.2.0",
+    "vue-simple-alert": "^1.1.1",
     "vuex": "^3.4.0"
   },
   "devDependencies": {

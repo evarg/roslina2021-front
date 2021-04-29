@@ -1,6 +1,6 @@
 <template>
   <header class="container to borders">
-    <h1 class="logo"><img src="./assets/logo-roslina.png"></h1>
+    <h1 class="logo"><img src="./assets/logo-roslina.png" height="30"></h1>
     dupa dupa dupa
   </header>
 </template>

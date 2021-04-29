@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './router.js'
 //import store from './store'
 import Vuex from 'vuex'
 import vueResource from 'vue-resource'
@@ -8,6 +8,10 @@ import vueResource from 'vue-resource'
 Vue.config.productionTip = false
 Vue.use(Vuex)
 Vue.use(vueResource)
+
+
+import VueSimpleAlert from "vue-simple-alert";
+Vue.use(VueSimpleAlert);
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 

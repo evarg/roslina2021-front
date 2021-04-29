@@ -3,8 +3,13 @@
     <div id="nav">
       <Header></Header>
       
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link>&nbsp;
+      <router-link to="/seed_producers">Producenci nasion</router-link>&nbsp;
+      <router-link to="/type_groups">Grupy gatunkow</router-link>&nbsp;
+      <router-link to="/types">Gatunki</router-link>&nbsp;
+      <router-link to="/variants">Odmiany</router-link>&nbsp;
+      <router-link to="/seeds">Nasiona</router-link>&nbsp;
+      <router-link to="/about">About</router-link>&nbsp;
     </div>
     <router-view/>
   </div>
